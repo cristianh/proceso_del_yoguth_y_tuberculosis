@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Periodismo y La Noticia</title>
+    <link rel="stylesheet" type="text/css" href="./src/animate.min.css">
+    <link rel="preload" href="styles.css" as="styles">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./src/animate.min.css">
+</head>
+
+<body onload="init()">
+    <div style="position: absolute;top: 0px;z-index: 1;">
+        <img src="./assets/Img/logo.png" alt="logo: escuela nueva">
+    </div>
+
+    <div class="contendor-bienvenida ">
+        <div class="contenido-actividad-bienvenida animate__animated animate__zoomInUp">
+            <div style="text-align: center;">
+                <img src="./assets/img/TituloActividad.png" class="responsive" alt="actividad">
+            </div>
+            <div class="contenedor-actividad animated__ani">
+                <div class="botones">
+                    <div>
+                        <div>
+                            <h1>Proceso del yogurt</h1>
+                        </div>
+                        <div>
+                            <div style="width: 55%;margin: 0px auto;">
+                                <div>
+                                    <div class="button btn1"
+                                        onclick="window.open('./assets/pdf/yogurt.pdf','_blank')">
+                                        Ver</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h1>Tuberculosis</h1>
+                        </div>
+                        <div>
+                            <div style="width: 80%;margin: 0px auto;">
+                                <div class="button btn2"
+                                    onclick="window.open('https://medlineplus.gov/spanish/ency/article/000077.htm','_blank')">
+                                    Ver
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="./src/sounds.js"></script>
+</body>
+
+</html>
